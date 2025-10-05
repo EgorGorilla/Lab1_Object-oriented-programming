@@ -34,4 +34,4 @@ python tasks/task1.py
 python tasks/task2.py
 
 # Запуск тестов
-uv run pytest
+pytest
