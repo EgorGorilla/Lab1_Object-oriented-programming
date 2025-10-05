@@ -65,6 +65,9 @@ docstring-code-line-length = "dynamic"
 
 [tool.pytest.ini_options]
 minversion = "7.0"
-addopts = "-ra -q -p no:warnings"
+addopts = "-v --tb=short -p no:warnings"
 testpaths = ["tests"]
-pythonpath = ["src"]
+pythonpath = ["."]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
