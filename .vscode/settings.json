@@ -1,10 +1,12 @@
 {
     "python.testing.pytestArgs": [
-        "tests"
+        "tests",
+        "--import-mode=importlib"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.extraPaths": [
+        ".",
         "./tasks"
     ]
 }

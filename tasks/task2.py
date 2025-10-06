@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 from goods_model import Goods
 
 if __name__ == "__main__":

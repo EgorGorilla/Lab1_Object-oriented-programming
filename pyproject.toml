@@ -67,7 +67,7 @@ docstring-code-line-length = "dynamic"
 minversion = "7.0"
 addopts = "-v --tb=short -p no:warnings"
 testpaths = ["tests"]
-pythonpath = ["."]
+pythonpath = ["tasks","examples"]
 python_files = "test_*.py"
 python_classes = "Test*"
 python_functions = "test_*"
